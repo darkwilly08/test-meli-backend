@@ -9,5 +9,6 @@ Es necesario tener instalado Node.
 ## Usage
 
 ```bash
-node .\app.js ${env:NODE_ENV}=development
+${env:NODE_ENV}='development'
+node .\app.js
 ```
